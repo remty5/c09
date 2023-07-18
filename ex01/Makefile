@@ -1,8 +1,7 @@
 SRC_DIR := srcs
 OBJ_DIR := srcs
-BIN_DIR := .
 
-LIB := $(BIN_DIR)/libft.a
+LIB := libft.a
 
 SOURCES := ft_putchar.c ft_swap.c ft_putstr.c ft_strlen.c ft_strcmp.c
 SRC := $(SOURCES:%=$(SRC_DIR)/%)
